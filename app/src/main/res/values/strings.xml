@@ -1,0 +1,21 @@
+<resources>
+    <string name="project_name">kursova</string>
+    <string name="tab_text_1">Horde</string>
+    <string name="tab_text_2">Alliance</string>
+    <string name="app_name">WoW checklist</string>
+    <string name="paladin">Paladin</string>
+    <string name="warrior">Warrior</string>
+    <string name="hunter">Hunter</string>
+    <string name="rogue">Rogue</string>
+    <string name="priest">Priest</string>
+    <string name="shaman">Shaman</string>
+    <string name="mage">Mage</string>
+    <string name="warlock">Warlock</string>
+    <string name="monk">Monk</string>
+    <string name="druid">Druid</string>
+    <string name="dh">Demon Hunter</string>
+    <string name="dk">Death Knight</string>
+    <string name="dungeons">Dungeons</string>
+    <string name="raids">Raids</string>
+    <string name="pvp">PvP</string>
+</resources>

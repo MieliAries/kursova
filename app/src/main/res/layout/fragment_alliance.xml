@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".fragments.AllianceFragment">
+
+    <TextView
+        android:id="@+id/DHHordePVP5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/pvp"
+        android:textAlignment="center"
+        android:textColor="#9040FF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DHHorde3" />
+
+    <TextView
+        android:id="@+id/DHHordePVP6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="4dp"
+        android:text="  0   1   2   3"
+        android:textAlignment="center"
+        android:textColor="#9040FF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/DHHordeDungeons7"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar7" />
+
+    <SeekBar
+        android:id="@+id/seekBar7"
+        android:layout_width="117dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/seekBar8"
+        app:layout_constraintTop_toBottomOf="@+id/DHHordePVP5" />
+
+    <TextView
+        android:id="@+id/DHHordeRaids3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/raids"
+        android:textAlignment="center"
+        android:textColor="#9040FF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/DHHordeDungeons8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar8"
+        android:layout_width="117dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/seekBar9"
+        app:layout_constraintTop_toBottomOf="@+id/DHHordeRaids3" />
+
+    <TextView
+        android:id="@+id/DHHordeDungeons7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="4dp"
+        android:text="  0   2   5   8"
+        android:textAlignment="center"
+        android:textColor="#9040FF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/DHHordeDungeons9"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar8" />
+
+    <TextView
+        android:id="@+id/DHHorde3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dh"
+        android:textAlignment="center"
+        android:textColor="#9040FF"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/DHHordeDungeons8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dungeons"
+        android:textAlignment="center"
+        android:textColor="#9040FF"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/DHHorde3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/DHHordeDungeons9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="  0   1   4   8"
+        android:textAlignment="center"
+        android:textColor="#9040FF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar9" />
+
+    <SeekBar
+        android:id="@+id/seekBar9"
+        android:layout_width="117dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DHHordeDungeons8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
